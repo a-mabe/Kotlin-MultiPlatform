@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Mobile MultiPlatform.iml" filepath="$PROJECT_DIR$/Mobile MultiPlatform.iml" group="Mobile MultiPlatform" />
+      <module fileurl="file://$PROJECT_DIR$/android-app/android-app.iml" filepath="$PROJECT_DIR$/android-app/android-app.iml" group="Mobile MultiPlatform/android-app" />
+      <module fileurl="file://$PROJECT_DIR$/mpp-library/mpp-library.iml" filepath="$PROJECT_DIR$/mpp-library/mpp-library.iml" group="Mobile MultiPlatform/mpp-library" />
+      <module fileurl="file://$PROJECT_DIR$/mpp-library/mpp-library_commonMain.iml" filepath="$PROJECT_DIR$/mpp-library/mpp-library_commonMain.iml" group="mpp-library" />
+      <module fileurl="file://$PROJECT_DIR$/mpp-library/mpp-library_commonTest.iml" filepath="$PROJECT_DIR$/mpp-library/mpp-library_commonTest.iml" group="mpp-library" />
+      <module fileurl="file://$PROJECT_DIR$/mpp-library/mpp-library_iosArm64Main.iml" filepath="$PROJECT_DIR$/mpp-library/mpp-library_iosArm64Main.iml" group="mpp-library" />
+      <module fileurl="file://$PROJECT_DIR$/mpp-library/mpp-library_iosArm64Test.iml" filepath="$PROJECT_DIR$/mpp-library/mpp-library_iosArm64Test.iml" group="mpp-library" />
+      <module fileurl="file://$PROJECT_DIR$/mpp-library/mpp-library_iosX64Main.iml" filepath="$PROJECT_DIR$/mpp-library/mpp-library_iosX64Main.iml" group="mpp-library" />
+      <module fileurl="file://$PROJECT_DIR$/mpp-library/mpp-library_iosX64Test.iml" filepath="$PROJECT_DIR$/mpp-library/mpp-library_iosX64Test.iml" group="mpp-library" />
+    </modules>
+  </component>
+</project>
