@@ -12,6 +12,7 @@
 		451E788823210A77000B4CF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451E788623210A77000B4CF6 /* Main.storyboard */; };
 		451E788A23210A78000B4CF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451E788923210A78000B4CF6 /* Assets.xcassets */; };
 		451E788D23210A78000B4CF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451E788B23210A78000B4CF6 /* LaunchScreen.storyboard */; };
+		63B94D4A2423E782007B29E1 /* MultiPlatformLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B94D492423E782007B29E1 /* MultiPlatformLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		451E788923210A78000B4CF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		451E788C23210A78000B4CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		451E788E23210A78000B4CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B94D492423E782007B29E1 /* MultiPlatformLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultiPlatformLibrary.framework; path = "../../mpp-library/build/bin/iosX64/MultiPlatformLibraryDebugFramework/MultiPlatformLibrary.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B94D4A2423E782007B29E1 /* MultiPlatformLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +57,7 @@
 		451E788123210A77000B4CF6 /* ios-app */ = {
 			isa = PBXGroup;
 			children = (
+				63B94D492423E782007B29E1 /* MultiPlatformLibrary.framework */,
 				451E788223210A77000B4CF6 /* AppDelegate.swift */,
 				451E788423210A77000B4CF6 /* ViewController.swift */,
 				451E788623210A77000B4CF6 /* Main.storyboard */,
@@ -74,6 +78,7 @@
 				451E787B23210A77000B4CF6 /* Sources */,
 				451E787C23210A77000B4CF6 /* Frameworks */,
 				451E787D23210A77000B4CF6 /* Resources */,
+				63B94D4B2423EB60007B29E1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -129,6 +134,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63B94D4B2423EB60007B29E1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		451E787B23210A77000B4CF6 /* Sources */ = {
@@ -199,6 +224,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "./../mpp-library/build/bin/iosX64/MultiPlatformLibraryDebugFramework";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -260,6 +286,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "./../mpp-library/build/bin/iosX64/MultiPlatformLibraryDebugFramework";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -283,6 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "./../mpp-library/build/bin/iosX64/MultiPlatformLibraryDebugFramework/**";
 				INFOPLIST_FILE = "ios-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +328,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "./../mpp-library/build/bin/iosX64/MultiPlatformLibraryDebugFramework/**";
 				INFOPLIST_FILE = "ios-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
