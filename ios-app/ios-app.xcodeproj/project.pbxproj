@@ -12,8 +12,12 @@
 		451E788823210A77000B4CF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451E788623210A77000B4CF6 /* Main.storyboard */; };
 		451E788A23210A78000B4CF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451E788923210A78000B4CF6 /* Assets.xcassets */; };
 		451E788D23210A78000B4CF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451E788B23210A78000B4CF6 /* LaunchScreen.storyboard */; };
+<<<<<<< HEAD
 		6329AFA724489F0C00511FD0 /* MultiPlatformLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B94D492423E782007B29E1 /* MultiPlatformLibrary.framework */; };
 		6329AFA824489F0C00511FD0 /* MultiPlatformLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63B94D492423E782007B29E1 /* MultiPlatformLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+=======
+		63B94D4A2423E782007B29E1 /* MultiPlatformLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B94D492423E782007B29E1 /* MultiPlatformLibrary.framework */; };
+>>>>>>> origin/master
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,7 +50,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				6329AFA724489F0C00511FD0 /* MultiPlatformLibrary.framework in Frameworks */,
+=======
+				63B94D4A2423E782007B29E1 /* MultiPlatformLibrary.framework in Frameworks */,
+>>>>>>> origin/master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +102,10 @@
 				451E787C23210A77000B4CF6 /* Frameworks */,
 				451E787D23210A77000B4CF6 /* Resources */,
 				63B94D4B2423EB60007B29E1 /* ShellScript */,
+<<<<<<< HEAD
 				6329AFA924489F0C00511FD0 /* Embed Frameworks */,
+=======
+>>>>>>> origin/master
 			);
 			buildRules = (
 			);
